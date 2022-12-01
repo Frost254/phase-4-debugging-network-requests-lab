@@ -63,11 +63,13 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
-
+  Updated the name to match the Model allowing new instances to be properly created
 - Update the number of likes for a toy
 
   - How I debugged:
+  Added a render method to the update feature in the controller to render any changes made to the parameters
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  Added a destroy route on the routes page to allow for deletions
